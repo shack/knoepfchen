@@ -63,7 +63,7 @@ Here, a brief summary of two standard configurations to get a clock signal out o
     - Resistor R2 from DIS to THR
     - Capacitor C from THR to GND
     - Frequency: <!-- $\frac 1{\ln 2\cdot(R_1+2R_2)\cdot C}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cfrac%201%7B%5Cln%202%5Ccdot(R_1%2B2R_2)%5Ccdot%20C%7D">
-    - Duty cycle: $\frac {R_1+R_2}{R_1+2R_2}$
+    - Duty cycle: <!-- $\frac {R_1+R_2}{R_1+2R_2}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7BR_1%2BR_2%7D%7BR_1%2B2R_2%7D">
 2. A 50% duty cycle configuration
     - Resistor R from THR to CLK
     - Capacitor C from THR to GND
