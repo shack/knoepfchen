@@ -1425,7 +1425,7 @@
     (property "Reference" "C4" (id 0) (at 52.07 124.4599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (id 1) (at 52.07 126.9999 0)
+    (property "Value" "" (id 1) (at 52.07 126.9999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (id 2) (at 49.2252 129.54 0)
@@ -1989,7 +1989,7 @@
       (reference "C2") (unit 1) (value "1µF") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm")
     )
     (path "/06a5a61e-cc48-49eb-a313-c00bf1c3412c"
-      (reference "C4") (unit 1) (value "10nF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+      (reference "C4") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/ec499889-f4fa-4ddb-bcc0-8d1eed5d901d"
       (reference "C5") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
