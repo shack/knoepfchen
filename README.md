@@ -26,13 +26,11 @@ The upper row can be plugged into the upper half of the breadboard and exposes a
 | 5      | b1    | O   | Debounced button 1 (active high)                  |
 | 6      | b2    | O   | Debounced button 2 (active high)                  |
 | 7      | s     | O   | Position 1 of debounced SPDT switch               |
-| 8      | ~s    | O   | Position 2 of debounced SPDT switch               |
-| 9      | DIS   | -   | Pin 7 of 555                                      |
-| 10     | THR   | -   | Pin 6 of 555                                      |
-| 11     | CLK   | O   | Pin 3 of 555                                      |
+| 8      | DIS   | -   | Pin 7 of 555                                      |
+| 9      | THR   | -   | Pin 6 of 555                                      |
+| 10     | CLK   | O   | Pin 3 of 555                                      |
 
 <img src="img/knoepfchen.png" alt="drawing" width="400"/>
-
 
 ## Components
 
@@ -50,7 +48,7 @@ In addition to a few standard resistors and capacitors (see schematics) you need
 ## Technical Details
 
 - The switch debouncing circuit uses two inverter gates in a feedback configuration through a resistor (R5) as in The Art of Electronics, 3rd ed. Figure 10.52, page 730.
-- The two buttons are identical and debounced using a standard RC circuit as in [this document](http://www.ganssle.com/debouncing-pt2.htm) but without the diode. Resistors R1, R2 and R3, R4 of the schematics correspond to R2 and R1 in that document. The schematics uses 100k for R3, R4 and 22k for R1, R2 and 1µF for C1, C2. These values should give you a discharge time of the capacitor of about 20 ms. 
+- The two buttons are identical and debounced using a standard RC circuit as in [this document](https://www.we-online.com/web/en/index.php/download/media/07_electronic_components/download_center_1/application_notes_berichte/sn015__contact_circuit_debounce_for_switches/SN015a_EN.pdf) but without the diode. Resistors R1 and R2 from the schematics are 1k and correspond to R1 in the document. Similarly, R3 and R4 are 10k and correspond to R2 in the document. C1 and C2 correspond to the capacitor and have 1µF each.
 - C5 is a decoupling capacitor for the '14 chip and the 555.
 - C4 connects to the CONTROL pin (pin 5) of the 555 and to GND.
 
