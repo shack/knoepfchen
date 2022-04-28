@@ -39,7 +39,7 @@ In addition to a few standard resistors and capacitors (see schematics) you need
 ## Usage
 
 - The buttons can be used for reset or a manual clock pulse.
-- The RC network of the buttons also can also serve as a power-on reset circuit, providing a active-high RESET signal after ~60ms (see details below).
+- The RC network of the buttons also can also serve as a power-on reset circuit, providing a active-high RESET signal after ~40ms (see details below).
 - The two inverter inputs can for example be used to create a active-low RESET signal and/or an inverted clock.
 - If you don't need the 555, just leave pins 9-11 unconnected.
 - If you don't need an inverter input, tie it low or high.
