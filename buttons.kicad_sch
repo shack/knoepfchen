@@ -1958,7 +1958,7 @@
       (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/de390e7f-c8cd-4025-9f10-f6ca93eb4209"
-      (reference "J3") (unit 1) (value "Conn_01x10") (footprint "")
+      (reference "J3") (unit 1) (value "Conn_01x10") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )
     (path "/cdbd4bcc-e997-4325-a7ff-84ab4ed1160e"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
