@@ -34,7 +34,7 @@ The upper row can be plugged into the upper half of the breadboard and exposes a
 
 ## Components
 
-In addition to a few standard resistors and capacitors (see schematics) you need to standard tactile buttons as commonly shipped in electronics starter packages. The only thing special to Knoepfchen is the [APEM 25000N](https://www.reichelt.de/schiebeschalter-gerade-rm2-54-1x-ein-ein-ss-25136-nh-p105709.html?&trstct=pos_2&nbc=1) SPDT switch. Maybe you can solder another switch onto Knoepfen, but the PCB is laid out for that switch's geometry.
+In addition to a few standard resistors and capacitors (see schematics) you need two standard tactile buttons as commonly shipped in electronics starter packages. The only thing special to Knoepfchen is the [APEM 25000N](https://www.reichelt.de/schiebeschalter-gerade-rm2-54-1x-ein-ein-ss-25136-nh-p105709.html?&trstct=pos_2&nbc=1) SPDT switch. Maybe you can solder another switch onto Knoepfen, but the PCB is laid out for that switch's geometry.
 
 ## Usage
 
