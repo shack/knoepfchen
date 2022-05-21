@@ -56,6 +56,8 @@ In addition to a few standard resistors and capacitors (see schematics) you need
 
 Here, a brief summary of two standard configurations to get a clock signal out of the 555.
 
+$a\cdot b$
+
 1. The standard configuration
     - Resistor R1 from Vcc to DIS
     - Resistor R2 from DIS to THR
