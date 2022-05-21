@@ -62,8 +62,10 @@ Here, a brief summary of two standard configurations to get a clock signal out o
     - Resistor R1 from Vcc to DIS
     - Resistor R2 from DIS to THR
     - Capacitor C from THR to GND
-    - Frequency: $\frac 1{\ln 2\cdot(R_1+2R_2)\cdot C}$
-    - Duty cycle: $\frac {R_1+R_2}{R_1+2R_2}$ 
+    - Frequency: 
+      $$\frac 1{\ln 2\cdot(R_1+2R_2)\cdot C}$$
+    - Duty cycle: 
+      $$\frac {R_1+R_2}{R_1+2R_2}$$ 
 2. A 50% duty cycle configuration
     - Resistor R from THR to CLK
     - Capacitor C from THR to GND
